@@ -1,5 +1,5 @@
-# 3. Searchbar
-Create a simple searchbar for a example list of 10 colors names.
+# 3. Searchbox
+Create a simple searchbox for a example list of 10 colors names.
 
 ## TODO:
 1. Create an input to allow user to type a search query
