@@ -1,0 +1,24 @@
+.serach-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+input {
+  font-size: 1rem;
+}
+
+.list-item {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.item {
+  border: 1px solid black;
+}
+
+.hide {
+  display: none;
+}

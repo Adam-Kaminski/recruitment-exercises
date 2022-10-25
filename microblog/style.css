@@ -1,0 +1,154 @@
+body {
+  background-color: #000;
+}
+
+.title-main {
+  display: flex;
+  justify-content: center;
+}
+
+.article-count {
+  color: #fff;
+}
+h1 {
+  color: #fff;
+}
+section h2 {
+  color: #fff;
+}
+
+.section-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-form {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.alert-cointainer {
+  margin: 5p;
+}
+
+.alert {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+}
+
+.alert-danger {
+  color: #721c24;
+  background: #f8d7da;
+  border-radius: 10px;
+}
+
+.alert-success {
+  color: #155724;
+  background: #d4edda;
+  border-radius: 10px;
+}
+.text:focus {
+  outline: none;
+}
+
+.text {
+  padding: 10px;
+  width: 500px;
+  border-radius: 20px;
+  border: 3px solid #383a3d;
+  background-color: #000;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.btn-sub-cointainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.submit-btn {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #1d9bf0;
+  color: #fff;
+}
+
+.btn-decrease {
+  background: none;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  height: 20px;
+}
+
+.btn-increase {
+  background: none;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  height: 20px;
+}
+
+.list-cointainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  word-wrap: break-word;
+}
+
+.list-post {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+  border: 2px solid #383a3d;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.vote-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.vote-count {
+  font-size: 20px;
+  color: #fff;
+}
+
+.post {
+  width: 400px;
+  font-size: 15px;
+  padding: 10px;
+  /* border: 2px solid #383a3d; */
+  border-radius: 10px;
+  color: #fff;
+}
+
+.btn-display {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.delete-btn {
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  background-color: #ff0000;
+}
+
+.material-symbols-outlined {
+  color: white;
+}

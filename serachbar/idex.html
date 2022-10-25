@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Searchbox</h1>
+    <div class="serach-container">
+      <label for="" class="search">
+        <input type="text" class="serach" id="input-color" data-search />
+        <button class="btn" id="clear">Clear</button>
+      </label>
+    </div>
+    <div class="list-item" data-list-template>
+      <template data-item-template>
+        <div class="item">
+          <div class="name" data-header></div>
+          <div class="color" data-body></div>
+        </div>
+      </template>
+    </div>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
+<!-- <div class="item">
+        <div class="name">Zielony</div>
+        <div class="color">Odpowiedni kolor</div>
+      </div>
+      <div class="item">
+        <div class="name">Zielony</div>
+        <div class="color">Odpowiedni kolor</div>
+      </div> -->
